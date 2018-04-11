@@ -43,7 +43,7 @@
 		<property name="transactionManager" ref="txManager"></property>
 		<property name="transactionAttributes">
 			<props>
-				<prop key="transfer">PROPAGATION_REQUIRED,ISOLATION_DEFAULT</prop>
+				<prop key="transfer">PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-Exception</prop>
 			</props>
 		</property>
 	</bean>
